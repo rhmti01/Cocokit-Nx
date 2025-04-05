@@ -11,19 +11,19 @@
 To run the dev server for your app, use:
 
 ```sh
-npx nx serve cocokits-test
+npx nx serve cocokits-ng
 ```
 
 To create a production bundle:
 
 ```sh
-npx nx build cocokits-test
+npx nx build cocokits-ng
 ```
 
 To see all available targets to run for a project, run:
 
 ```sh
-npx nx show project cocokits-test
+npx nx show project cocokits-ng
 ```
 
 These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
