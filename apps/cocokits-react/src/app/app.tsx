@@ -1,11 +1,10 @@
 // Uncomment this line to use CSS modules
-// import styles from './app.module.scss';
-import NxWelcome from './nx-welcome';
+  import './app.module.scss';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="cocokits-react" />
+      <h1>Cocokits React App</h1>
     </div>
   );
 }
