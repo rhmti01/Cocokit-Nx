@@ -1,3 +1,5 @@
+@use "@cocokits/theme-frames-x/tokens.min.css"; // <- Add this one
+@use "@cocokits/theme-frames-x/styles.min.css"; // <- Add this one
 /* Your styles goes here. */
 h1 {
   font-size: 3rem;

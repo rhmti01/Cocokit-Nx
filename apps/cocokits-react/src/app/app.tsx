@@ -1,11 +1,17 @@
-// Uncomment this line to use CSS modules
-  import './app.module.scss';
+import { ThemeConfigContext } from '@cocokits/react-components';
+import { framesXThemeConfig } from '@cocokits/theme-frames-x';
+import { Button, Checkbox } from '@cocokits/react-components';
+import './app.module.scss';
 
-export function App() {
+function App() {
   return (
-    <div>
-      <h1>Cocokits React App</h1>
-    </div>
+    <ThemeConfigContext.Provider value={framesXThemeConfig}>
+      <div>
+        <h1>Cocokits React App</h1>
+        <Button>Hello</Button>
+        <Checkbox>This is a checkbox</Checkbox>
+      </div>
+    </ThemeConfigContext.Provider>
   );
 }
 
