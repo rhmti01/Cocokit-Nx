@@ -16,19 +16,20 @@
         "polyfills": ["zone.js"],
         "tsConfig": "apps/cocokits-ng/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": [
-          {
-            "glob": "**/*",
-            "input": "apps/cocokits-ng/public"
-          }
+        "assets": [{
+          "glob": "**/*",
+          "input": "apps/cocokits-ng/public"
+        }],
+        "styles": [
+          "apps/cocokits-ng/src/styles.scss",
+          "@cocokits/theme-frames-x/styles.min.css",
+          "@cocokits/theme-frames-x/tokens.min.css"
         ],
-        "styles": ["apps/cocokits-ng/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
         "production": {
-          "budgets": [
-            {
+          "budgets": [{
               "type": "initial",
               "maximumWarning": "500kb",
               "maximumError": "1mb"
